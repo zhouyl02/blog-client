@@ -1,5 +1,5 @@
 # Vue-Blog-Client
-> Vue 2.5 开发共享博客客户端。
+> Vue 2.x 开发共享博客
 
 ## 项目涉及到技术栈：
 - Vue：Vue、Vue-router、Vuex、Vue-cli
