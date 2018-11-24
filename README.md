@@ -7,9 +7,6 @@
 - 插件：ElementUI、axios、marked
 - 接口：auth.js、blog.js
 
-## 项目页面预览：
-![](https://evenyao-1257191344.cos.ap-chengdu.myqcloud.com/11.jpg)
-
 # 项目记录
 ## 安装 / 导入 ElementUI
 ```
