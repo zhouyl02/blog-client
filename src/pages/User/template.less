@@ -1,0 +1,75 @@
+@import "../../assets/base.less";
+
+#user{
+    .user-info{
+        display: grid;
+        border-bottom: 1px solid #ebebeb;
+        grid: auto auto / 80px 1fr;
+        margin-top: 30px;
+        padding-bottom: 20px;
+
+        img{
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            grid-column: 1;
+            grid-row: 1 / span 2;
+        }
+
+        h3{
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 10px;
+        }
+    }
+
+    .contents{
+        .item{
+            display: grid;
+            grid: auto auto auto / 80px 1fr;
+            margin: 20px 0;
+
+            .date{
+                grid-column: 1;
+                grid-row: 1 / span 3;
+                text-align: center;
+
+                .day{
+                    font-size: 40px;
+                }
+
+                p{
+                    color: @textLighterColor;
+                    margin: 0;
+                }
+            }
+
+            h3{
+                grid-column: 2;
+                grid-row: 1;
+            }
+
+            p{
+                grid-column: 2;
+                grid-row: 2;
+                margin-top: 0;
+            }
+
+            .actions{
+                grid-column: 2;
+                grid-row: 3;
+                font-size: 12px;
+
+                a{
+                    color: @themeLighterColor;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    .changePage{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
