@@ -1,5 +1,4 @@
 import auth from '@/api/auth'
-
 const state = {
     user: null,
     isLogin: false
